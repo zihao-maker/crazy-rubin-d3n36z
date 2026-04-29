@@ -1,0 +1,81 @@
+/* 導覽列 */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #666;
+  margin-left: 20px;
+  font-size: 0.9rem;
+}
+
+/* 內容容器 */
+.main-container {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.page-content {
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.feature-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+  width: 80px;
+  font-size: 0.8rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* 讓 cta-button 在表單中看起來更像按鈕 */
+button.cta-button {
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button.cta-button:hover {
+  background: #0056b3;
+}
